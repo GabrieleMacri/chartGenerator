@@ -36,8 +36,14 @@ body{
     border-radius: 4px;
 }
 
+.select:focus,
+.input:focus {
+    border-color: #303f9f;
+    box-shadow: 0 0 3px #303f9f;
+}
+
 .btn{
-    padding: 8px 15px;
+    padding: 12px 20px; /* Increased padding for easier clickable area */
     border: none;
     background-color: #303f9f;
     color: #fff;
